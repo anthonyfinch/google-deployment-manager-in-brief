@@ -20,12 +20,13 @@ infrastructure based on the content of the config file. For example - vm.yml can
 be used to create a new vm:
 
 ```yaml
+# NB: Alter MYPROJECT to the name of your project
 resources:
 - name: my-vm
   type: compute.v1.instance
   properties:
     zone: us-central1-a
-    machineType: https://www.googleapis.com/compute/v1/projects/myproject/zones/us-central1-f/machineTypes/f1-micro
+    machineType: https://www.googleapis.com/compute/v1/projects/MYPROJECT/zones/us-central1-f/machineTypes/f1-micro
     disks:
     - deviceName: boot
       type: PERSISTENT
@@ -34,7 +35,7 @@ resources:
       initializeParams:
         sourceImage: https://www.googleapis.com/compute/v1/projects/debian-cloud/global/images/family/debian-8
     networkInterfaces:
-    - network: https://www.googleapis.com/compute/v1/projects/myproject/global/networks/default
+    - network: https://www.googleapis.com/compute/v1/projects/MYPROJECT/global/networks/default
       accessConfigs:
       - name: External NAT
         type: ONE_TO_ONE_NAT
