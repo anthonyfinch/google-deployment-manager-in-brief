@@ -9,9 +9,9 @@ It's similar to [terraform](https://www.terraform.io/) and
 # Ok, let's get going!
 
 Not so fast, zergling. Make sure you've set up a google cloud project 
-https://cloud.google.com/compute/docs/projects and the gcloud command line 
-tool to interact with it https://cloud.google.com/sdk/gcloud/. 
-
+[https://cloud.google.com/compute/docs/projects](https://cloud.google.com/compute/docs/projects) 
+and the gcloud command line tool to interact with it 
+[https://cloud.google.com/sdk/gcloud/.](https://cloud.google.com/sdk/gcloud/) 
 # And now?
 
 Now, we get to play. At it's very simplest, deployment manager (from herein
