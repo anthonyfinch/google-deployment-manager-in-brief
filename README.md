@@ -44,3 +44,11 @@ resources:
 Resources will have a name, and a type. Depending on what their type is, they
 may require additional properties to be configured too. You can learn more about
 what the different types are in the [documentation.](https://cloud.google.com/deployment-manager/docs/configuration/create-configuration-file#supported_resource_types_and_properties)
+
+# Yes, but nothing got created yet, right?
+
+Right - a perfectly astute if impatient remark. To create a deployment:
+
+```bash
+gcloud deployment-manager deployments create DEPLOYMENT_NAME --config vm.yml
+```
