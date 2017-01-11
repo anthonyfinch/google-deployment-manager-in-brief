@@ -1,1 +1,1 @@
-# Google Deployment Manager in brief
+# A brisk introduction to Google Deployment Manager
